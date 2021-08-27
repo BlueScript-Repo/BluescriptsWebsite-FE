@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import {FormsModule} from "@angular/forms";
 import { CarrerRoutingModule } from './carrer-routing.module';
 import { CarrerpageComponent } from './carrerpage/carrerpage.component';
 
@@ -11,7 +11,8 @@ import { CarrerpageComponent } from './carrerpage/carrerpage.component';
   ],
   imports: [
     CommonModule,
-    CarrerRoutingModule
+    CarrerRoutingModule,
+    FormsModule
   ]
 })
 export class CarrerModule { }

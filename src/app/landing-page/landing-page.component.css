@@ -75,6 +75,22 @@
     color: #fff;
     cursor:pointer;
 }
+.btn_banner1{
+    /* margin-top: 30px; */
+    padding: 5px;
+    font-size:16px;
+    width: 110px;
+    border-radius:10px;
+    background-color:transparent;
+    border: 2px solid #0d8ec8;
+    color: #0d8ec8;
+}
+.btn_banner1:hover{
+    background-color:#0d8ec8;
+    border: 2px solid #0d8ec8;
+    color: #fff;
+    cursor:pointer;
+}
 .arrow{
     /* margin-bottom: -100px; */
     padding-left: 10px;
@@ -325,4 +341,31 @@ padding-top:10px ;
 .card:hover{
     transition: all 0.5s;
     box-shadow: 10px 20px 20px rgba(0,0,0,0.4);
+}
+.contact_us .header{
+    padding: 20px;
+    padding-left: 40px;
+    font-size: 34px;
+    color: #0b6597;
+}
+.contact_us{
+    padding-bottom: 50px;
+}
+.head{
+
+}
+
+.icons i{
+    padding-left: 50px;
+}
+.main .left{
+width: 100%;
+}
+.main .right{
+    padding-left: 40px;
+}
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }

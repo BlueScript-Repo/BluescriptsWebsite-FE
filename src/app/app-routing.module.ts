@@ -8,7 +8,9 @@ const routes: Routes = [
   {path:'landing',component:LandingPageComponent},
   {path:'',redirectTo:'/landing/landingPage',pathMatch:'full'},
   {path:"auth",loadChildren:()=>import('./auth/auth.module').then(mod=>mod.AuthModule)},
-  {path:"career",loadChildren:()=>import("./carrer/carrer.module").then(mod=>mod.CarrerModule)}
+  {path:"career",loadChildren:()=>import("./carrer/carrer.module").then(mod=>mod.CarrerModule)},
+  {path:"productModule",loadChildren:()=>import("./products/products.module").then(mod=>mod.ProductsModule)},
+  {path:"about",loadChildren:()=>import("./about-us/about-us.module").then(mod=>mod.AboutUsModule)}
 ];
 
 @NgModule({

@@ -1,0 +1,23 @@
+footer{
+    background: rgb(182, 182, 182);
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+}
+
+.icons i{
+    font-size: 24px;
+padding-left:20px ;
+padding-top:10px ;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid p:hover{
+    cursor: pointer;
+    color: white;
+}

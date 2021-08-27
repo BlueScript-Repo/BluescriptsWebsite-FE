@@ -1,4 +1,4 @@
-	
+/* 	
 	li {
         display: inline;
     }
@@ -82,4 +82,45 @@
         padding: 15px;
         text-align: center;
       }
-    
+     */
+
+
+
+
+     .header{
+        /* padding: 20px; */
+        /* padding-left: 40px; */
+        padding-top: 120px;
+        font-size: 34px;
+        color: grey;
+    }
+    .mid_content{
+        text-align: center;
+        color: #0d8ec8;
+        font-size: 28px;
+    }
+    .card{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.151);
+    }
+    label{
+        font-weight:500;
+    }
+    .card-header{
+        font-weight:bold;
+    }
+    .btn_banner{
+        margin-top: 30px;
+        padding: 5px;
+        font-size:16px;
+        width: 150px;
+        border-radius:10px;
+        background-color:transparent;
+        border: 2px solid #0d8ec8;
+        color: #0d8ec8;
+    }
+    .btn_banner:hover{
+        background-color:#0d8ec8;
+        border: 2px solid #0d8ec8;
+        color: #fff;
+        cursor:pointer;
+    }
