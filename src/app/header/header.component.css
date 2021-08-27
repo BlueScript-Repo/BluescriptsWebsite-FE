@@ -39,7 +39,7 @@ nav .wrapper{
 }
 .nav-links li{
     list-style: none;
-    padding-left:40px;
+    padding-left:10px;
 }
 
 .nav-links li a:hover{

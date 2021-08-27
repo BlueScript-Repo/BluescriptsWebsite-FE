@@ -51,11 +51,11 @@
     color: white;
 }
 .banner_content p{
-    width: 60%;
+    width: 70%;
     letter-spacing:2px;
-    line-height:30px;
+    /* line-height:30px; */
     padding-top:40px;
-    font-size:20px;
+    font-size:16px;
     color: white;
 }
 
@@ -83,7 +83,7 @@
 .mid_content p{
     text-align: center;
     padding:20px;
-    color:#0d8ec8;
+    color:gray;
     letter-spacing:1px;
     font-family: 'Comfortaa', cursive;
     /* margin-bottom: 30px; */

@@ -4,7 +4,7 @@ import{FormsModule} from '@angular/forms';
 import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
+import {HttpClientModule} from "@angular/common/http"
 
 @NgModule({
   declarations: [
@@ -14,7 +14,8 @@ import { RegisterComponent } from './register/register.component';
   imports: [
     CommonModule,
     AuthRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
 
   ]
 })
