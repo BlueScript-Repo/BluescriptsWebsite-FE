@@ -15,4 +15,10 @@ export class LoginComponent implements OnInit {
     alert("Working");
     this.route.navigate(['/auth/register']);
   }
+
+  login(loginForm:any){
+    console.log(loginForm);
+    
+  }
+
 }

@@ -15,15 +15,16 @@
                             <div align="center" style="color: white;" class="card-header rounded-bottom fs-3">
                                 User Login
                             </div>
+                            <form #loginForm="ngForm" (ngSubmit)="login(loginForm.value)">
                             <div style="margin-top: 8px;"class="card-body">
                                 <div class="row">
                                     <div class="col-md-12 mb-3">
                                         <label for="username" class="form-label">Username or Email</label>
-                                        <input type="text" style="font-size:14px;" name="userName" id="username" class="form-control" ngModel placeholder="Username or Email">
+                                        <input type="text" style="font-size:14px;" ngModel name="userName" id="username" class="form-control" ngModel placeholder="Username or Email">
                                         </div>
                                         <div class="col-md-12 mb-3">
                                             <label for="password" class="form-label">Password</label>
-                                            <input style="font-size:14px;" type="password"  name="password" id="password" class="form-control" ngModel placeholder="Password">
+                                            <input style="font-size:14px;" type="password" ngModel name="password" id="password" class="form-control" ngModel placeholder="Password">
                                         </div>
                                         <div align="left" class="col-md-12">
                                             <a style="text-decoration:none;color: white;" ><small class="forget">Forgot password?</small></a>
@@ -41,6 +42,7 @@
                                     </div>
                                 </div>
                                 </div>
+                            </form>
                         </div>
                     </div>
             </div>
