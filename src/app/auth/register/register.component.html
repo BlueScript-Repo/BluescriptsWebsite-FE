@@ -1,0 +1,305 @@
+<div style="padding-top: 100px;" class="container">
+    <div class="" style="margin-left: 90px;">
+        <div style="border-radius: 10px; margin: 10px;"  class="card">
+            <div style="background-color:skyblue;color:#fff"  class="card-header fs-5">
+               Registration Form
+            </div>
+            <div class="card-body">
+                
+        <div class="mb-3 row">
+          <label for="email" class="form-label">Name</label>
+          <div class="col-md-2 mb-3">
+            <select required  name="title" id="title" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Title *</option><option value="Mr">Mr.</option><option value="Ms.">Ms.</option><option value="Dr.">Dr.</option></select>
+          </div>
+        <div class="col-md-3">
+          <input type="First" name="First" class="form-control" id="First"  placeholder="Enter your FirstName" ngModel required>
+        </div>
+        <div class="col-md-3">
+          <input type="Middle" name="Middle" class="form-control" id="Middle"  placeholder="Enter your MiddleName " ngModel required>
+        </div>
+        <div class="col-md-3">
+          <input type="Last" name="Last" class="form-control" id="Last"  placeholder="Enter your Surname" ngModel required>
+        </div>
+        <p>Please enter your name as appearing on your Passport or SSC Mark sheet.</p>
+          </div>
+  
+          <div class="mb-3 row">
+            <div class="col-md-6">
+              <label for="Date" class="form-label">Date Of Birth:</label>
+              <input type="date" class="form-control in1" ngModel name="date" id="date">
+            </div>
+          </div>  
+  
+          <div class="mb-3 row">
+            <div class="col-md-6">
+              <label for="Date" class="form-label">Age:</label>
+              <input type="number" class="form-control in1" ngModel name="Age" id="age">
+            </div>
+          </div>  
+       
+          <div class="mb-3 row">
+             <div class="col-md-6">
+                <label for="email" class="form-label">Email Id:</label>
+                <input type="email" name="email" class="form-control" id="email"  placeholder="Enter your Email" ngModel required>
+              </div>
+          </div>
+          
+          <!-- <div class="mb-3 row">
+            <div class="col-md-6">
+               <label for="password" class="form-label">Password:</label>
+               <input type="password" name="password" class="form-control" id="password"  placeholder="Enter your password" ngModel required>
+             </div>
+         </div> -->
+         
+         <div class="col-md-12 mb-3">
+          <label for="userName" class="form-label"> UserName:</label>
+          <input type="text" name="userName" id="userName" class="form-control"  placeholder="Enter Your userName"ngModel required>
+        </div>
+  
+         
+         <div class="mb-3 row">
+          <div class="col-md-6 mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" name="password" class="form-control" id="password"  placeholder="Enter your password" ngModel required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="cpassword" class="form-label">Confirm Password:</label>
+            <input type="cpassword" name="cpassword" class="form-control" id="cpassword"  placeholder="Enter your password again" ngModel required>
+          </div>
+       </div>
+         
+          
+          
+          <div class="mb-3 row">
+              <div class="col-md-12">
+                <label for="mobile" class="form-label">Mobile Number:</label>
+              </div>
+                <div class="col-sm-2 mb-3">
+                  <select required  name="title" id="title" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> +91 
+  
+                  <!-- </option><option value="Mr">Mr.</option><option value="Ms.">Ms.</option><option value="Dr.">Dr.</option> -->
+                </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                <input type="tel"  name="mobileNumber" class="form-control" pattern="[0-9]{10}" id="mobile"  placeholder="Enter your Mobile number" ngModel required>
+               </div>
+               
+              <!-- <div class="col-sm-2 mb-2">
+                <select required  name="title" id="title" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Title *</option><option value="Mr">Mr.</option><option value="Ms.">Ms.</option><option value="Dr.">Dr.</option></select>
+              </div> -->
+              <div class="col-md-4 mb-3">
+              <input type="tel"  name="alternatemobile" class="form-control" pattern="[0-9]{10}" id="alternatemobile"  placeholder="Enter your Alternate Mobile number" ngModel required>
+             </div>
+            </div>
+  
+         <div class="mb-3 row">
+          <div class="col-md-12">
+             <label for="qualification" class="form-label">Educational Qualification:</label>      
+           </div>
+           
+           <div class="mb-3 row">
+            <div class="col-md-12">
+               <label for="sinstitute" class="form-label">School Name:</label>
+               <input type="sinstitute" name="sinstitute" class="form-control" id="sinstitute"  placeholder="Enter your Institute Name" ngModel required>
+             </div>
+         </div>
+  
+           <div class="col-md-4 mb-3">
+            <label for="spercentage" class="form-label"> SSC Percentage(%):</label>
+            <input type="text" name="spercentage" id="spercentage" class="form-control" ngModel required>
+          </div>
+  
+          <div class="mb-3 row">
+            <div class="col-md-12">
+               <label for="hinstitute" class="form-label">College Name:</label>
+               <input type="hinstitute" name="hinstitute" class="form-control" id="hinstitute"  placeholder="Enter your Institute Name" ngModel required>
+             </div>
+         </div>
+  
+         <div class="col-md-4 mb-3">
+            <label for="hpercentage" class="form-label"> HSC Percentage(%)</label>
+            <input type="text" name="hpercentage" id="hpercentage" class="form-control" ngModel required>
+          </div>
+  
+  
+         <div class="mb-3 row">
+             <p>If You Have Done Diploma Then Enter The Following Details:</p>
+            <div class="col-md-6">
+               <label for="diploma" class="form-label">Diploma:</label>
+               <select required  name="diploma" id="diploma" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> diploma*</option><option value="BE">BE</option><option value="ME">ME</option></select>
+             </div>
+         </div>
+         <div class="mb-3 row">
+            <div class="col-md-12">
+               <label for="institute" class="form-label">Institute Name:</label>
+               <input type="institute" name="institute" class="form-control" id="institute"  placeholder="Enter your Institute Name" ngModel required>
+             </div>
+         </div>
+  
+         <div class="mb-3 row">
+            <div class="col-md-6 mb-3">
+                <label for="branch" class="form-label">Branch:</label>
+                <select required  name="branch" id="branch" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Select Your Branch*</option><option value="Mechanical">Mechanical</option><option value="Civil">Civil</option><option value="Computer">Computer</option><option value="Electronic">Electronic</option><option value="Electric">Electric</option><option value="IT">IT</option></select>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="year" class="form-label">Passout Year:</label>
+                <select required  name="year" id="year" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Select Your Passout Year*</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option></select>
+            </div>
+         </div>
+  
+  
+           <div class="col-md-4 mb-3">
+            <label for="percentage" class="form-label"> Diploma Percentage(%)</label>
+            <input type="text" name="percentage" id="percentage" class="form-control" ngModel required>
+          </div>
+  
+          <div class="col-md-4 mb-3">
+            <label for="percentage" style="margin-left:60px;">OR</label>
+            <label for="percentage" class="form-label"style="margin-left:120px;"> CGPA</label>
+            <input type="text"  name="percentage" id="percentage" style="margin-left:200px" class="form-control" ngModel required>
+          </div>
+         </div>
+  
+         <div class="mb-3 row">
+            <div class="col-md-12">
+               <label for="qualification" class="form-label">Educational Qualification:</label>
+               <div class="col-md-6 mb-3">
+               <input type="qualification" name="qualification" class="form-control" id="qualification"  placeholder="Enter your Qualification" ngModel required>
+               </div>
+             </div>
+             
+           <div class="mb-3 row">
+              <div class="col-md-6">
+                 <label for="degree" class="form-label">Degree:</label>
+                 <select required  name="degree" id="degree" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Degree*</option><option value="BE">BE</option><option value="ME">ME</option></select>
+               </div>
+           </div>
+           <div class="mb-3 row">
+              <div class="col-md-12">
+                 <label for="institute" class="form-label">Institute Name:</label>
+                 <input type="institute" name="institute" class="form-control" id="institute"  placeholder="Enter your Institute Name" ngModel required>
+               </div>
+           </div>
+  
+           <div class="mb-3 row">
+              <div class="col-md-6 mb-3">
+                  <label for="branch" class="form-label">Branch:</label>
+                  <select required  name="branch" id="branch" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Select Your Branch*</option><option value="Mechanical">Mechanical</option><option value="Civil">Civil</option><option value="Computer">Computer</option><option value="Electronic">Electronic</option><option value="Electric">Electric</option><option value="IT">IT</option></select>
+              </div>
+              <div class="col-md-6 mb-3">
+                  <label for="year" class="form-label">Passout Year:</label>
+                  <select required  name="year" id="year" class="form-select" ngModel placeholder="select"><option class="a-prompt" value=""> Select Your Passout Year*</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option></select>
+              </div>
+           </div>
+  
+  
+             <div class="col-md-4 mb-3">
+              <label for="percentage" class="form-label"> Degree Percentage(%)</label>
+              <input type="text" name="percentage" id="percentage" class="form-control" ngModel required>
+            </div>
+  
+            <div class="col-md-4 mb-3">
+              <label for="percentage" style="margin-left:60px;">OR</label>
+              <label for="percentage" class="form-label"style="margin-left:120px;"> CGPA</label>
+              <input type="text"  name="percentage" id="percentage" style="margin-left:200px" class="form-control" ngModel required>
+            </div>
+           </div>
+  
+          <div class="mb-3 row">
+              <div class="col-md-12">
+                  <label for="address" class="form-label">Address :</label>
+                  <input type="text" name="line1" id="line1" class="form-control" ngModel required>
+              </div>
+              <!-- <div class="col-md-6 mb-3">
+                <label for="line1" class="form-label">Line1</label>
+                <input type="text" name="line1" id="line1" class="form-control" ngModel required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="line2" class="form-label">Line2</label>
+                <input type="text"name="line2" id="line2" ngModel class="form-control" ngModel required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="landmark" class="form-label">Landmark</label>
+                <input type="text" name="landmark" id="Landmark" class="form-control" placeholder="Enter your landmark" ngModel >
+              </div>
+              <div class="col-md-6">
+                  <label for="city" class="form-label">City</label>
+                  <input type="text" name="city" id="city" class="form-control" placeholder="Enter city" ngModel  required>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="pincode" class="form-label">Pincode</label>
+                  <input type="number" name="pincode" id="Pincode" pattern="[0-9]{6}" class="form-control" placeholder="Enter pincode"ngModel required>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="state" class="form-label">State</label>
+              <select required  name="state" id="state" class="form-select" ngModel placeholder="select"><option class="a-prompt" value="">Select state</option><option value="ANDAMAN &amp; NICOBAR ISLANDS">ANDAMAN &amp; NICOBAR ISLANDS</option><option value="ANDHRA PRADESH">ANDHRA PRADESH</option><option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option><option value="ASSAM">ASSAM</option><option value="BIHAR">BIHAR</option><option value="CHANDIGARH">CHANDIGARH</option><option value="CHHATTISGARH">CHHATTISGARH</option><option value="DADRA &amp; NAGAR HAVELI">DADRA &amp; NAGAR HAVELI</option><option value="DAMAN &amp; DIU">DAMAN &amp; DIU</option><option value="DELHI">DELHI</option><option value="GOA">GOA</option><option value="GUJARAT">GUJARAT</option><option value="HARYANA">HARYANA</option><option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option><option value="JAMMU &amp; KASHMIR">JAMMU &amp; KASHMIR</option><option value="JHARKHAND">JHARKHAND</option><option value="KARNATAKA">KARNATAKA</option><option value="KERALA">KERALA</option><option value="LAKSHADWEEP">LAKSHADWEEP</option><option value="MADHYA PRADESH">MADHYA PRADESH</option><option value="MAHARASHTRA">MAHARASHTRA</option><option value="MANIPUR">MANIPUR</option><option value="MEGHALAYA">MEGHALAYA</option><option value="MIZORAM">MIZORAM</option><option value="NAGALAND">NAGALAND</option><option value="ODISHA">ODISHA</option><option value="PUDUCHERRY">PUDUCHERRY</option><option value="PUNJAB">PUNJAB</option><option value="RAJASTHAN">RAJASTHAN</option><option value="SIKKIM">SIKKIM</option><option value="TAMIL NADU">TAMIL NADU</option><option value="TELANGANA">TELANGANA</option><option value="TRIPURA">TRIPURA</option><option value="UTTAR PRADESH">UTTAR PRADESH</option><option value="UTTARAKHAND">UTTARAKHAND</option><option value="WEST BENGAL">WEST BENGAL</option></select>
+              </div> 
+            </div> -->
+            <div class="mb-3 row">
+              <div class="col-md-12">
+                  <label for="address" class="form-label">PermentAddress :</label>
+                  <input type="text" name="line1" id="line1" class="form-control" ngModel required>
+              </div>
+              <!-- <div class="col-md-6 mb-3">
+                <label for="line1" class="form-label">Line1</label>
+                <input type="text" name="line1" id="line1" class="form-control" ngModel required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="line2" class="form-label">Line2</label>
+                <input type="text"name="line2" id="line2" ngModel class="form-control" ngModel required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="landmark" class="form-label">Landmark</label>
+                <input type="text" name="landmark" id="Landmark" class="form-control" placeholder="Enter your landmark" ngModel >
+              </div>
+              <div class="col-md-6">
+                  <label for="city" class="form-label">City</label>
+                  <input type="text" name="city" id="city" class="form-control" placeholder="Enter city" ngModel  required>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="pincode" class="form-label">Pincode</label>
+                  <input type="number" name="pincode" id="Pincode" pattern="[0-9]{6}" class="form-control" placeholder="Enter pincode"ngModel required>
+              </div>
+              <div class="col-md-4 mb-3">
+                  <label for="state" class="form-label">State</label>
+              <select required  name="state" id="state" class="form-select" ngModel placeholder="select"><option class="a-prompt" value="">Select state</option><option value="ANDAMAN &amp; NICOBAR ISLANDS">ANDAMAN &amp; NICOBAR ISLANDS</option><option value="ANDHRA PRADESH">ANDHRA PRADESH</option><option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option><option value="ASSAM">ASSAM</option><option value="BIHAR">BIHAR</option><option value="CHANDIGARH">CHANDIGARH</option><option value="CHHATTISGARH">CHHATTISGARH</option><option value="DADRA &amp; NAGAR HAVELI">DADRA &amp; NAGAR HAVELI</option><option value="DAMAN &amp; DIU">DAMAN &amp; DIU</option><option value="DELHI">DELHI</option><option value="GOA">GOA</option><option value="GUJARAT">GUJARAT</option><option value="HARYANA">HARYANA</option><option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option><option value="JAMMU &amp; KASHMIR">JAMMU &amp; KASHMIR</option><option value="JHARKHAND">JHARKHAND</option><option value="KARNATAKA">KARNATAKA</option><option value="KERALA">KERALA</option><option value="LAKSHADWEEP">LAKSHADWEEP</option><option value="MADHYA PRADESH">MADHYA PRADESH</option><option value="MAHARASHTRA">MAHARASHTRA</option><option value="MANIPUR">MANIPUR</option><option value="MEGHALAYA">MEGHALAYA</option><option value="MIZORAM">MIZORAM</option><option value="NAGALAND">NAGALAND</option><option value="ODISHA">ODISHA</option><option value="PUDUCHERRY">PUDUCHERRY</option><option value="PUNJAB">PUNJAB</option><option value="RAJASTHAN">RAJASTHAN</option><option value="SIKKIM">SIKKIM</option><option value="TAMIL NADU">TAMIL NADU</option><option value="TELANGANA">TELANGANA</option><option value="TRIPURA">TRIPURA</option><option value="UTTAR PRADESH">UTTAR PRADESH</option><option value="UTTARAKHAND">UTTARAKHAND</option><option value="WEST BENGAL">WEST BENGAL</option></select>
+              </div> 
+            </div> -->
+              <div class="mb-3 row">
+              <div class="col-md-6 mb-3">
+                <label for="skill" class="form-label">Primary Skill :</label>
+                <input type="text" name="skill" id="Pan" class="form-control"ngModel   placeholder="Enter Your Skill" required>
+              </div>
+  
+              <div class="mb-3 row">
+              <div class="col-md-6 mb-3 ">
+                <p>Please enter certification if you done any.</p>
+                <label for="certification" class="form-label">Certification</label>
+                <input type="certification"name="certification" class="form-control" id="certification" ngModel  placeholder="Enter certification You Did" required>
+            </div>
+  
+              <div class="mb-3 row">
+                <div class="col-md-6 mb-3">
+                    <label for="experience" class="form-label">Total Experience :</label>
+                    <input type="number" name="experience" id="experience" class="form-control"  placeholder="Enter Your Experience"ngModel required>
+                  </div>
+                  </div>
+  
+                 
+                    <div class="col-md-12 mb-3">
+                        <label for="companyName" class="form-label">Company Name:</label>
+                        <input type="text" name="companyName" id="companyName" class="form-control"  placeholder="Enter Your companyName"ngModel required>
+                      </div>
+    
+  
+            <div class="row mt-5">
+                <div align="right" class="col-md-12 mb-3">
+                    <button href="" style="width:150px;color: blue;border:1px solid;" type="submit" class="btn bt1">Register</button>
+                </div>
+            </div>
+        </div>
+    
+  </div>
+  </div>
+  </div>
+  </div>
