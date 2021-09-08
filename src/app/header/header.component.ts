@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { BluescriptServiceService } from '../bluescript-service.service';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  Token=localStorage.getItem('token');
+  isAuthenticated:boolean=true;
+  User:any='';
 
-  constructor() { }
+  constructor(public router:Router,public http:BluescriptServiceService) { }
 
   ngOnInit(): void {
   }
+
+  
 
 }

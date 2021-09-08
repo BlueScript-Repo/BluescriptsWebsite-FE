@@ -5,6 +5,7 @@ import {HttpClient} from "@angular/common/http"
   providedIn: 'root'
 })
 export class BluescriptServiceService {
+  Role:any=localStorage.getItem('role');
 
   constructor(public http: HttpClient) { }
 
